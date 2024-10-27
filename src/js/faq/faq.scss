@@ -1,0 +1,154 @@
+.faq {
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.faq__block {
+ position: relative;
+
+  
+  &::after {
+    margin-top: -1343px;
+    margin-left: 120px;
+    position: absolute;
+
+    content: url(../../img/BAR-T-LOGO\ 1.png);
+    opacity: 0.5;
+   
+  }
+}
+.faq__block-image {
+  margin-top: 50px; 
+  margin-left: 300px;
+  position: absolute;
+   z-index: 2;
+ 
+}
+
+
+
+
+.faq__block-content1 {
+ 
+ margin-left: 125px;
+  margin-top: 450px;
+
+}
+.faq__block-content1-block {
+ display: flex;
+   gap: 26px;
+  
+}
+.faq__block-content1-block-image {
+
+  z-index: 2;
+
+}
+.faq__line1 {
+  position: absolute;
+flex-shrink: 0;
+margin-left: -11px;
+margin-top: -12px;
+  width: 20px;
+  height: 138px;
+  background: #cda370;
+  flex-shrink: 0;
+  &::after {
+    content: " ";
+  }
+}
+.faq__line2 {
+  position: absolute;
+  flex-shrink: 0;
+  margin-left: -11px;
+  margin-top: -12px;
+    width: 138px;
+    height:20px; 
+    background: #cda370;
+    flex-shrink: 0;
+    &::after {
+      content: " ";
+    }
+}
+.faq__block-content1-block-text {
+ 
+  margin-top: 20px;
+  width: 340px;
+  color: #FFF;
+font-family: Kadwa;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.faq__block-content2 {
+ 
+}
+.faq__block-content2-block {
+   display: flex;
+  gap: 26px;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  margin-left: 125px;
+}
+.faq__block-content2-block-text {
+  margin-top: 20px;
+  width: 294px;
+  color: #FFF;
+font-family: Kadwa;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.faq__block-content2-block-image {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  
+}
+.faq__block-content2-block-image img {
+width: 100%;
+flex-shrink: 0;
+display: flex;
+
+}
+.faq__line3 {
+    position: absolute;
+flex-shrink: 0;
+margin-left: 378px;
+margin-top: 378px;
+  width: 20px;
+  height: 138px;
+  background: #cda370;
+  flex-shrink: 0;
+  &::after {
+    content: " ";
+  }
+}
+.faq__line4 {
+  position: absolute;
+  flex-shrink: 0;
+  margin-left: 260px;
+  margin-top: 497px;
+    width: 138px;
+    height:20px; 
+    background: #cda370;
+    flex-shrink: 0;
+    &::after {
+      content: " ";
+    }
+
+}
+
+
+@media (max-width: 480px) {
+  .faq__block-content2-block-text {
+    font-size: 14px; 
+  } 
+  .faq__block-content1-block-text {
+    font-size: 14px; 
+  }
+}

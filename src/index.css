@@ -1,0 +1,14 @@
+@import './scss/reset.scss';
+@import './scss/style.scss';
+@import '../src/js/header/header.scss';
+@import '../src/js/main/main.scss';
+@import '../src/js/main/main-sec1/mainSec1.scss';
+@import '../src/js/main/main-sec2/mainSec2.scss';
+@import '../src/js/main/main-sec3/mainSec3.scss';
+@import '../src/js/main/main-sec4/mainSec4.scss';
+@import '../src/js/footer/footer.scss';
+@import '../src/js/about/about.scss';
+@import '../src/js/faq/faq.scss';
+@import '../src/js/book_now/bookNow.scss';
+
+

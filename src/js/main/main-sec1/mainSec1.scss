@@ -1,0 +1,122 @@
+.mainSec1 {
+  margin-bottom: 160px;
+  &::after {
+    margin-top: -350px;
+    margin-left: 120px;
+    position: absolute;
+
+    content: url(../../../img/BAR-T-LOGO\ 1.png);
+    opacity: 0.5;
+  }
+}
+
+.mainSec1__block1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 90px;
+  align-items: end;
+  padding-right: 130px;
+}
+.mainSec1__block1-block {
+  display: flex;
+  justify-content: flex-end;
+}
+.mainSec1__block1-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 68px;
+}
+.mainSec1__block1-title-title {
+  width: 418px;
+  color: #cea571;
+  font-family: Kadwa;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 184.781%;
+  padding-top: 20px;
+}
+.mainSec1__block1-title-text {
+  width: 356px;
+  margin-top: 18px;
+  color: #f1f1f1;
+  font-family: Kadwa;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 184.781%;
+}
+.mainSec1__block1-title-button {
+  position: absolute;
+  border-radius: 2px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 21px;
+  margin-left: 70px;
+  font-family: Kadwa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 115px;
+  height: 24px;
+  cursor: pointer;
+  background: #cda370;
+  z-index: 2;
+  transition: all 0.3s ease;
+  color: #050505;
+
+  &:hover {
+    transform: scale(1.03);
+    background-color: #cc8e41;
+    color: white;
+    border: 1px solid rgb(156, 154, 154);
+    box-shadow: 1px 4px 8px rgba(129, 128, 128, 0.666);
+  }
+}
+
+.mainSec1__block1-image {
+  display: flex;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: 100%;
+}
+.mainSec1__block1-image img {
+  position: absolute;
+
+  z-index: 2;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .mainSec1__block1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin-left: 50px;
+  }
+  .mainSec1__block1-image {
+    margin-left: -90px;
+    margin-bottom: 40px;
+  }
+  .mainSec1__block1-title-text {
+    width: 356px;
+    font-size: 18px;
+  }
+  .mainSec1__block1-title-button {
+    position: absolute;
+    top: 542px;
+    left: 330px;
+    width: 200px;
+    height: 45px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #070707c5;
+    font-size: 22px;
+  }
+}

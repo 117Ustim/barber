@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap");
+
+body {
+  font-family: "Kadwa", sans-serif;
+  font-size: 0.875rem;
+  background: #282828;
+  color: #e8e6e6;
+}
+.wrapper {
+  min-height: 100%;
+  /* overflow: clip; */
+  display: flex;
+  flex-direction: column;
+}
+.__container {
+  max-width: 916px;
+  padding: 0 15px;
+
+  margin: 0 auto;
+}
+

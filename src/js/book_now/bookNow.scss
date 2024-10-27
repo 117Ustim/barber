@@ -1,0 +1,93 @@
+.bookNow {
+  position: relative;
+  &::after {
+    margin-left: 120px;
+    position: absolute;
+
+    content: url(../../img/BAR-T-LOGO\ 1.png);
+    opacity: 0.5;
+  }
+}
+.bookNow__line {
+  margin-top: 80px;
+  margin-left: 150px;
+
+  border-top: 1px solid #cda370;
+}
+.bookNow__block {
+  position: absolute;
+  margin-top: 60px;
+}
+.bookNow__block-content {
+  display: flex;
+  gap: 114px;
+  margin-top: 57px;
+  margin-left: 220px;
+}
+.bookNow__block-content-image {
+}
+.bookNow__block-content-image_image {
+}
+.bookNow__block-content-block-title {
+  width: 320px;
+  height: auto;
+  flex-shrink: 0;
+  line-height: 270%;
+  color: #fff;
+  font-family: Kadwa;
+  font-size: 12px;
+  font-weight: 400;
+}
+.bookNow__block-content-block-image-name {
+  margin-top: 10px;
+  margin-left: 220px;
+  color: #cda370;
+  font-family: Kadwa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bookNow__block-content-block-button {
+  position: absolute;
+  z-index: 2;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  color: #050505;
+  align-items: center;
+
+  margin-left: 520px;
+  font-family: Kadwa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 115px;
+  height: 24px;
+  cursor: pointer;
+  background: #cda370;
+  z-index: 2;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    background-color: #cc8e41;
+    color: white;
+    border: 1px solid rgb(156, 154, 154);
+    box-shadow: 1px 4px 8px rgba(129, 128, 128, 0.666);
+  }
+}
+.nav__li {
+  list-style-type: disc;
+}
+
+@media (max-width: 480px) {
+  .bookNow__block-content-block-image-name {
+    font-size: 14px;
+  }
+  .bookNow__block-content-block-title {
+    font-size: 14px;
+  }
+ 
+}

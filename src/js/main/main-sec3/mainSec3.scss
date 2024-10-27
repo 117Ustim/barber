@@ -1,0 +1,49 @@
+.mainSec3__block {
+  display: flex;
+}
+.mainSec3__block-block {
+  padding-top: 65px;
+  padding-left: 250px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainSec3__block-title {
+  color: #cea571;
+  font-family: Kadwa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mainSec3__block-text {
+  color: #e0e0e0;
+  font-family: Kadwa;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.281%;
+  width: 434px;
+}
+
+
+@media (max-width:480px) {
+  .mainSec3__block-title {
+   font-size: 35px; 
+   width: 700px;
+   padding-left: 65px;
+  }
+  .mainSec3__block-block {
+    padding-top: 65px;
+    padding-left: 70px;
+  }  
+  .mainSec3__block-text {
+    padding-top: 30px;
+  padding-left: 50px;
+    font-size: 18px;
+    width: 730px;
+  }
+  
+}

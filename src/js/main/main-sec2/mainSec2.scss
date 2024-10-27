@@ -1,0 +1,125 @@
+.mainSec2 {
+}
+.mainSec2__block1 {
+  margin-top: 124px;
+  margin-left:20px;
+}
+
+.mainSec2__block1-block {
+  display: flex;
+}
+.mainSec2__line {
+  margin-top: -20px;
+  width: 20px;
+  height: 138px;
+  background: #cda370;
+  flex-shrink: 0;
+  &::before {
+    content: " ";
+  }
+}
+.mainSec2__line2 {
+  width: 174px;
+  height: 20px;
+  background: #cda370;
+  margin-left: 19px;
+  flex-shrink: 0;
+  &::before {
+    content: " ";
+  }
+}
+.mainSec2__block1-image {
+  z-index: 2;
+  border: 3px solid #cda370;;
+}
+.mainSec2__block1-title {
+  margin-left: 137px;
+}
+.mainSec2__block1-title-title {
+  color: #cea571;
+  position: absolute;
+  font-family: Kadwa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190.281%;
+  width: 228px;
+  top: 630px;
+}
+.mainSec2__block1-title-text {
+  color: #e8e6e6;
+  font-family: Kadwa;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.281%;
+  width: 374px;
+  position: absolute;
+  top: 730px;
+}
+
+
+@media (max-width:480px) {
+  .mainSec2 {
+     position: relative;
+  }
+  .mainSec2__block1 {
+    margin-top: 130px;
+   
+  }
+  .mainSec2__block1-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+   
+  }
+  .mainSec2__block1-title-title {
+    position: absolute;
+    top: 0;
+    left: 138px;
+    font-size: 35px;
+  
+    width: 440px;
+    
+  }
+  .mainSec2__block1-title {
+    margin-left: 5px;
+   
+  }
+  .mainSec2__block1-title-text {
+    position: absolute;
+    top: 100px;
+    left: 138px;
+    margin-top: 50px;
+    font-size: 18px;
+  
+    line-height: 190.281%;
+    width: 680px;
+   
+  }
+  .mainSec2__block1-image {
+    width: 694px;
+    margin-top: 300px;
+    height: auto;
+    flex-shrink: 0;
+    & img {
+      width: 690px;
+    height: auto;
+    flex-shrink: 0;
+    }
+  }
+  .mainSec2__line {
+  
+  position: absolute;
+  top: 303px;
+  left: 116px;
+    
+  }
+  .mainSec2__line2 {
+  
+    position: absolute;
+    top: 282px;
+    left: 98px;
+      
+    }
+}
